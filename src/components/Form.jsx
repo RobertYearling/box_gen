@@ -28,7 +28,7 @@ const Form = () => {
         <>
             <div>
                 <form onSubmit={subHandler}>
-                    <h3>Color: <input type="text" name="color" id="" onChange={changeHandler} /></h3>
+                    <h3>Color: <input type="text" name="color" id="" onChange={changeHandler} value={formColor.color} /></h3>
                     <p><input type="submit" value="Add" /></p>
                 </form>
             </div>
